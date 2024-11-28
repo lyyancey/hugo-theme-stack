@@ -147,3 +147,6 @@ params:
             enabled: true
         content:
             enabled: true
+# large timeout
+timeout : "10m"
+
