@@ -37,8 +37,8 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
-        provider: disqus
+        enabled: true
+        provider: gitalk
 
         disqusjs:
             shortname:
@@ -107,11 +107,11 @@ params:
             lang:
 
         gitalk:
-            owner:
-            admin:
-            repo:
-            clientID:
-            clientSecret:
+            owner: 'lyyancey'
+            admin: 'lyyancey'
+            repo: 'lyblogs'
+            clientID: 'Ov23liuY77Q3CjsLhWxx'
+            clientSecret: '9fd5a6a349288eda7f72c6eb3d646704e778f2df'
 
         cusdis:
             host:
