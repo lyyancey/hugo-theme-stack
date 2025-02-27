@@ -17,7 +17,6 @@
         id: md5(location.pathname), // Max Location.pathname Legth:75  https://github.com/gitalk/gitalk/issues/102
         proxy: {{- .proxy -}},
     });
-    /**
     (function () {
         if (
             ["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1
@@ -28,7 +27,6 @@
         }
         gitalk.render("gitalk-container");
     })();
-    */
 </script>
 <style>
     /* 这里是你刚才转换的 CSS 内容 */
